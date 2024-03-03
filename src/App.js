@@ -5,7 +5,7 @@ import { img, logo } from "./images";
 
 function App() {
   const [allData, setAllData] = useState({
-    fontFamily: "'Montserrat', sans-serif",
+    fontFamily: "'Space Grotesk', sans-serif",
     logo: logo,
 
     img: img,
