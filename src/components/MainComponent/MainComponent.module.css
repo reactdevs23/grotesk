@@ -1,0 +1,129 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+
+  padding: 24px 0;
+  padding-bottom: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+  max-width: 991px;
+  width: 100%;
+  margin: 0 auto;
+}
+.topHeader {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.logo {
+  max-width: 120px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  align-items: center;
+  gap: 18px;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 50px;
+}
+
+.heading {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 90%;
+  color: var(--secondaryColor);
+  text-transform: uppercase;
+}
+
+.postName p {
+  color: var(--secondaryColor);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 110%;
+}
+.searchIcon {
+  max-width: 20px;
+}
+.requirementsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 430px;
+  background: var(--secondaryColor);
+  padding: 22px;
+  border-radius: 15px;
+}
+.requirementsContainer .title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 90%;
+  color: var(--accentColor);
+}
+
+.requirements {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.requirement {
+  color: var(--accentColor);
+  font-size: 19px;
+  font-weight: 500;
+
+  line-height: 120%;
+  margin-left: 18px;
+  list-style-type: disc;
+}
+/* .requirement::before {
+  content: " ";
+  position: absolute;
+  left: -0px;
+  top: 0%;
+
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--secondaryColor);
+  z-index: 1;
+} */
+.submitCv {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.label {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 90%;
+  color: var(--secondaryColor);
+}
+.email {
+  color: var(--secondaryColor);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.imgContainer .img {
+  width: 100%;
+
+  max-width: 400px;
+  z-index: 1;
+}
